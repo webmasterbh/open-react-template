@@ -33,7 +33,7 @@ export default function Contato() {
                 <div className="flex flex-wrap mb-4 -mx-3">
                   <div className="w-full px-3">
                     <label className="block mb-1 text-sm font-medium text-gray-300" htmlFor="email">Work Email <span className="text-red-600">*</span></label>
-                    <textarea id="message" rows="4" className="w-full text-gray-300 form-input" placeholder="Write your thoughts here..."></textarea>
+                    <textarea id="message"  className="w-full text-gray-300 form-input" placeholder="Write your thoughts here..."></textarea>
                   </div>
                 </div>
 
