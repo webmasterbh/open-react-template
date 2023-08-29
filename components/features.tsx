@@ -20,7 +20,7 @@ export default function Features() {
                 <path className="text-purple-100 stroke-current" d="M30 39.313l-4.18 2.197L27 34.628l-5-4.874 6.91-1.004L32 22.49l3.09 6.26L42 29.754l-3 2.924" strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd" />
                 <path className="text-purple-300 stroke-current" d="M43 42h-9M43 37h-9" strokeLinecap="square" strokeWidth="2" />
               </svg>
-              <h4 className="mb-2 h4">Instant Features</h4>
+              <h4 className="mb-2 h4">Criação de Sites</h4>
               <p className="text-lg text-center text-gray-400">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
             </div>
 
@@ -31,7 +31,7 @@ export default function Features() {
                 <path className="text-purple-100 stroke-current" strokeWidth="2" strokeLinecap="square" d="M21 23h22v18H21z" fill="none" fillRule="evenodd" />
                 <path className="text-purple-300 stroke-current" d="M26 28h12M26 32h12M26 36h5" strokeWidth="2" strokeLinecap="square" />
               </svg>
-              <h4 className="mb-2 h4">Instant Features</h4>
+              <h4 className="mb-2 h4">Edição de Vídeo</h4>
               <p className="text-lg text-center text-gray-400">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
             </div>
 
@@ -45,7 +45,7 @@ export default function Features() {
                   <circle className="text-purple-100 stroke-current" cx="11" cy="11" r="11" />
                 </g>
               </svg>
-              <h4 className="mb-2 h4">Instant Features</h4>
+              <h4 className="mb-2 h4">Markenting Digital</h4>
               <p className="text-lg text-center text-gray-400">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
             </div>
 
