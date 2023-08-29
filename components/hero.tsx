@@ -4,10 +4,10 @@ import ModalVideo from '@/components/modal-video'
 export default function Hero() {
   return (
     <section>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
+      <div className="relative max-w-6xl px-4 mx-auto sm:px-6">
 
         {/* Illustration behind hero content */}
-        <div className="absolute left-0 bottom-0 -ml-20 hidden lg:block pointer-events-none" aria-hidden="true" data-aos="fade-up" data-aos-delay="400">
+        <div className="absolute bottom-0 left-0 hidden -ml-20 pointer-events-none lg:block" aria-hidden="true" data-aos="fade-up" data-aos-delay="400">
           <svg className="max-w-full" width="564" height="552" viewBox="0 0 564 552" fill="none" xmlns="http://www.w3.org/2000/svg">
             <defs>
               <linearGradient id="illustration-02" x1="-3.766" y1="300.204" x2="284.352" y2="577.921" gradientUnits="userSpaceOnUse">
@@ -23,17 +23,20 @@ export default function Hero() {
         <div className="relative pt-32 pb-10 md:pt-40 md:pb-16">
 
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h1 mb-4" data-aos="fade-up">Desenvolvimento Web Marketing Digital</h1>
-            <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
-            <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
+          <div className="max-w-3xl pb-12 mx-auto text-center md:pb-16">
+            <h1 className="mb-4 h1" data-aos="fade-up">Marketing Digital Desenvolvimento Web</h1>
+            <p className="mb-8 text-xl text-gray-400" data-aos="fade-up" data-aos-delay="200">Nosso objetivo é solucionar problemas de comunicação e marketing de maneira assertiva para obtermos os resultados planejados e esperados.</p>
+           
+           {/* call to action */}
+            {/* <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
-                <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Start free trial</a>
+                <a className="w-full mb-4 text-white bg-purple-600 btn hover:bg-purple-700 sm:w-auto sm:mb-0" href="#0">Start free trial</a>
               </div>
               <div data-aos="fade-up" data-aos-delay="600">
-                <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">Learn more</a>
+                <a className="w-full text-white bg-gray-700 btn hover:bg-gray-800 sm:w-auto sm:ml-4" href="#0">Learn more</a>
               </div>
-            </div>
+            </div> */}
+            
           </div>
 
           <ModalVideo

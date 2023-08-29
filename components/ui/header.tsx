@@ -29,14 +29,14 @@ export default function Header() {
                 </Link>
               </li>
 
-              <li>
+              {/* <li>
                 <Link
                   href="/signin"
                   className="flex items-center px-4 py-3 font-medium text-purple-600 transition duration-150 ease-in-out hover:text-gray-200"
                 >
                   Serviços
-                </Link>
-              </li>
+                </Link>np
+              </li> */}
         
               <li>
                 <Link href="/signup" className="ml-3 text-white bg-purple-600 btn-sm hover:bg-purple-700">
